@@ -34,7 +34,7 @@ impl Voice for Cat{
     }
 
     fn voice(&self) -> String {
-        let string = format!("{:?} is barking", self.species);
+        let string = format!("{:?} is barking", self.color);
         string
     }
 }
